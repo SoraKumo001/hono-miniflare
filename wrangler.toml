@@ -1,0 +1,8 @@
+name = "hono-miniflare"
+compatibility_date = "2024-09-25"
+compatibility_flags = ["nodejs_compat"]
+main = "./src/index.tsx"
+assets = { directory = "./public"}
+
+[observability]
+enabled = true
