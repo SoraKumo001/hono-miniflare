@@ -10,6 +10,7 @@ export default defineConfig({
       // Bundle all ENTRY modules.
       bundle: true,
       // Set to true for automatic reloading without HMR
+      // autoNoExternal: true,
       reload: true,
     }),
   ],
